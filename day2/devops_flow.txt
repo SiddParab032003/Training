@@ -1,0 +1,54 @@
+        1. PLAN
+          Jira
+            ↓
+        2. CODE
+      Git / GitHub
+            ↓
+        3. BUILD
+     Maven / Gradle
+            ↓
+        4. TEST
+     JUnit / Selenium
+            ↓
+        5. RELEASE
+ Jenkins / GitHub Actions
+            ↓
+        6. DEPLOY
+   Docker / Kubernetes
+            ↓
+        7. OPERATE
+         Ansible
+            ↓
+        8. MONITOR
+         Grafana
+            ↓
+    FEEDBACK & IMPROVEMENT
+            ↓
+       Back to PLAN
+
+
+
+1. Plan – Jira, Azure Boards
+- Gather requirements and decide what features to develop.
+- Assign tasks and track project progress.
+2. Code – Git, GitHub
+- Developers write application code.
+- Git tracks code changes, while GitHub stores and shares the code.
+3. Build – Maven, Gradle
+- Convert source code into a build artifact, such as a JAR file.
+- Manage project dependencies.
+4. Test – JUnit, Selenium
+- Check whether the application works correctly.
+- Identify bugs and errors through automated testing.
+5. Release – Jenkins, GitHub Actions
+- Automate build and testing workflows.
+- Prepare a tested version for release.
+6. Deploy – Docker, Kubernetes
+- Docker packages the application and its dependencies into containers.
+- Kubernetes helps deploy, manage, and scale containers.
+7. Operate – Ansible
+- Automate server configuration and routine maintenance.
+- Keep the application infrastructure running smoothly.
+8. Monitor – Grafana
+- Monitor application and server performance using dashboards.
+- Identify issues and help the team troubleshoot them.
